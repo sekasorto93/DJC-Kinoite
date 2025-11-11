@@ -25,7 +25,7 @@ modules:
       packages:
         - starship
         - thinkfan
-        - lm-sensors
+        - lm_sensors
         - btop
         - htop
         - fastfetch

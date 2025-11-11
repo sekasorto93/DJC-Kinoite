@@ -46,3 +46,5 @@ modules:
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
+
+RUN rpm-ostree kargs --append-if-missing="thinkpad_acpi.fan_control=1"

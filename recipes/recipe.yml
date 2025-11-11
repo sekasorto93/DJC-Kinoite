@@ -23,7 +23,6 @@ modules:
         - atim/starship
     install:
       packages:
-        - micro
         - starship
         - thinkfan
         - btop
@@ -42,7 +41,6 @@ modules:
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
           - org.mozilla.firefox
-          - org.gnome.Loupe
       - scope: user # Also add Flathub user repo, but no user packages
         remove:
           - org.kde.kolourpaint 

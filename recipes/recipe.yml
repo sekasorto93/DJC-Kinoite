@@ -25,6 +25,7 @@ modules:
       packages:
         - starship
         - thinkfan
+        - lm-sensors
         - btop
         - htop
         - fastfetch
@@ -46,6 +47,11 @@ modules:
           - org.mozilla.firefox
           - app.zen_browser.zen
       - scope: user # Also add Flathub user repo, but no user packages
+
+  - type: kargs
+    arch: x86_64, aarch64 # only inject kernel arguments to these specific OS architectures
+    kargs:
+      - thinkpad_acpi.fan_control=1
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 

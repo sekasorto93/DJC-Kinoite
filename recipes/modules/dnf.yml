@@ -1,0 +1,30 @@
+modules:
+  - type: dnf
+    install:
+      packages:
+        # audio & codecs
+        - alsa-firmware
+        - ffmpegthumbnailer
+        - heif-pixbuf-loader
+        - libcamera-gstreamer
+        - libcamera-tools
+        - libva-utils
+        - pipewire-plugin-vulkan
+        - vulkan-headers
+        # System
+        - thinkfan
+        - lm_sensors
+        # CLI utilities
+        - distrobox
+        - btop
+        - htop
+        - fastfetch
+        - neovim
+        # GUI
+        - ptyxis
+    remove:
+      packages:
+        # example: removing firefox (in favor of the flatpak)
+        # "firefox" is the main package, "firefox-langpacks" is a dependency
+        - firefox
+        - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)

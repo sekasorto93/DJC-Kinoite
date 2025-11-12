@@ -1,0 +1,9 @@
+modules:
+  - type: default-flatpaks
+    configurations:
+      - notify: true # Send notification after install/uninstall is finished (true/false)
+        scope: system
+        install:
+          - org.mozilla.firefox
+          - app.zen_browser.zen
+          - com.github.tchx84.Flatseal

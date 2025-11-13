@@ -12,7 +12,7 @@ modules:
         - pipewire-plugin-vulkan
         - vulkan-headers
         # System
-        - thinkfan
+        - zcfan
         - lm_sensors
         # CLI utilities
         - distrobox

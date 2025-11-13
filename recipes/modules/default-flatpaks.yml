@@ -7,3 +7,4 @@ modules:
           - org.mozilla.firefox
           - app.zen_browser.zen
           - com.github.tchx84.Flatseal
+          - org.fkoehler.KTailctl

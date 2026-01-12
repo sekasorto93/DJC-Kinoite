@@ -20,7 +20,6 @@ modules:
         - htop
         - fastfetch
         - neovim
-        - tailscale
         - kubernetes-client
         # GUI
         - ptyxis
